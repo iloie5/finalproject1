@@ -24,13 +24,6 @@ services:
     depends_on:
       - db
 
-  redis:
-    image: redis:7-alpine
-    container_name: finalproject-redis-new
-    ports:
-      - "6381:6379"
-
 volumes:
   postgres_data:
   media_volume:
-
