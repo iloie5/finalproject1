@@ -1,5 +1,5 @@
 from django.db.models import Max
-from api.serializers import ProductSerializer, OrderSerializer, ProductInfoSerializer
+from api.serializers import ProductSerializer, OrderSerializer, ProductInfoSerializer, OrderItemSerializer
 from api.models import Product, Order, OrderItem
 from rest_framework.response import Response
 from rest_framework import generics
