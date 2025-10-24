@@ -4,44 +4,24 @@
 
 
 
- Core E-Commerce Features
-    Product Management – Full CRUD operations
-    Order Management – Complete order lifecycle handling
-    Order Items – Detailed item-level management
-    User Management – Custom user model with extended fields
+Core E-Commerce Features
+ 1.Product Management – Full CRUD operations
+ 2.Order Management – Complete order lifecycle handling
+ 3.Order Items – Detailed item-level management
+ 4.User Management – Custom user model with extended fields
 
 Authentication & Security
-    JWT Authentication – Secure token-based login
-    Email Verification – Code-based account verification
-    Security Questions – Password recovery via preset questions
-    Password Reset – Safe reset workflow
-    User Profiles – Full profile management
+  1.JWT Authentication – Secure token-based login
+  2.Email Verification – Code-based account verification
+  3.Security Questions – Password recovery via preset questions
+  4.Password Reset – Safe reset workflow
+  5.User Profiles – Full profile management
 
 
 
 
 
-finalproject/
-├── api/
-│   ├── models.py              # Database models
-│   ├── serializers.py         # DRF serializers
-│   ├── views.py              # API views
-│   ├── urls.py               # URL routing
-│   ├── auth_serializers.py   # Authentication serializers
-│   ├── auth_views.py         # Authentication views
-│   ├── filters.py            # Custom filters
-│   ├── tests.py              # Comprehensive tests
-│   └── management/
-│       └── commands/
-│           └── populate_db.py # Database population
-├── drf_project/
-│   ├── settings.py           # Django settings
-│   ├── urls.py              # Main URL configuration
-│   ├── celery.py            # Celery configuration
-│   └── wsgi.py              # WSGI configuration
-├── Dockerfile               # Docker configuration
-├── docker-compose.yml       # Docker Compose setup
-└── requirements.txt        # Python dependencies
+
 
 
 API Endpoints
